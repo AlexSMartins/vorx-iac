@@ -12,7 +12,7 @@ module "vpc" {
  enable_vpn_gateway = false
  enable_dns_hostnames = true
  tags = {
-    Env = "Prod"
+    Env = "qa"
     Project = "Infra"
     Customer = "Vorx"
 }
